@@ -1,5 +1,5 @@
 name: sb_converter
-description: A sample command-line application.
+description: A sing-box converter command-line application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
@@ -8,6 +8,8 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  dart_mappable: ^4.8.0
+  dio: ^5.9.2
   path: ^1.9.0
 
 dev_dependencies:
